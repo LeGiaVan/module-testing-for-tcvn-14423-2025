@@ -1,0 +1,53 @@
+
+================================================================================
+BÁO CÁO KIỂM THỬ DYNAMIC DATA MASKING THEO TCVN 14423:2025
+================================================================================
+Thời gian xuất báo cáo: 09/11/2025 20:10:14
+Cơ sở dữ liệu: Phuong_AnNhonNam
+Server: localhost,1434
+
+1. THỐNG KÊ TỔNG QUAN KIỂM THỬ
+--------------------------------------------------
+Tổng số test cases: 22
+Số test cases thành công: 22
+Số test cases thất bại: 0
+Số test cases lỗi: 0
+Tỷ lệ thành công: 100.0%
+
+2. PHÂN TÍCH KẾT QUẢ THEO NGƯỜI DÙNG
+--------------------------------------------------
+- Quản trị viên (user_admin): 6/6 thành công (100.0%)
+- Kế toán (user_ketoan): 5/5 thành công (100.0%)
+- Văn thư (user_vanthu): 4/4 thành công (100.0%)
+- Nhân viên (user_nhanvien): 7/7 thành công (100.0%)
+
+3. CHI TIẾT CÁC TEST CASE THẤT BẠI
+--------------------------------------------------
+✅ Không có test case nào thất bại
+
+4. ĐÁNH GIÁ MỨC ĐỘ BẢO MẬT
+--------------------------------------------------
+✅ Tỷ lệ test thành công: ĐẠT
+✅ Quyền admin: ĐẠT - Thấy dữ liệu đầy đủ
+✅ Masking user thường: ĐẠT - Dữ liệu được ẩn đúng
+
+5. KẾT LUẬN VÀ KHUYẾN NGHỊ
+--------------------------------------------------
+🎯 KẾT LUẬN: ✅ ĐẠT TIÊU CHUẨN
+
+📋 KHUYẾN NGHỊ:
+🔸 Duy trì hiện trạng cấu hình Dynamic Data Masking
+🔸 Tiếp tục giám sát định kỳ
+🔸 Đào tạo user về quyền truy cập dữ liệu
+
+6. THÔNG TIN KỸ THUẬT
+--------------------------------------------------
+Phương pháp kiểm thử: SA + EXECUTE AS USER
+Số lượng user được kiểm thử: 4
+Tổng số lượt truy vấn kiểm thử: 22
+Database: Phuong_AnNhonNam
+Phiên bản script: 3.0 (Hoàn thiện)
+
+================================================================================
+Báo cáo được tạo tự động bởi Hệ thống Kiểm thử Dynamic Data Masking
+================================================================================

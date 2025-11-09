@@ -1,0 +1,63 @@
+================================================================================
+BÁO CÁO KIỂM THỬ BẢO MẬT THEO TCVN 14423:2025
+================================================================================
+Thời gian xuất báo cáo: 09/11/2025 20:07:32
+Cơ sở dữ liệu: Phuong_AnNhonNam
+
+1. THỐNG KÊ TỔNG QUAN HỆ THỐNG
+--------------------------------------------------
+Tổng số user trong hệ thống: 5
+Tổng số lượt truy cập: 22
+Số truy cập thất bại: 18
+Tổng số cảnh báo: 18
+Tỷ lệ thành công: 18.2%
+
+2. PHÂN TÍCH USER CÓ NGUY CƠ BẢO MẬT
+--------------------------------------------------
+- Phạm Thị D (VĂN PHÒNG): 8 lần truy cập thất bại
+- Trần Thị B (VĂN PHÒNG): 5 lần truy cập thất bại
+- Lê Văn C (KẾ TOÁN): 4 lần truy cập thất bại
+- Hoàng Văn E (CÔNG AN): 1 lần truy cập thất bại
+
+3. CẢNH BÁO TRUY CẬP MỨC ĐỘ CAO
+--------------------------------------------------
+Số cảnh báo mức ưu tiên cao trong 24h: 13
+
+⏰ 09/11 11:06 | 👤 Lê Văn C
+   📁 Báo cáo an ninh trật tự (Mức 4, Ưu tiên: 1)
+   ⚠️  T? d?ng d?ng b? t? log: Vượt quyền - User cấp 3 không được truy cập tài sản cấp 4
+
+⏰ 09/11 11:06 | 👤 Trần Thị B
+   📁 Báo cáo an ninh trật tự (Mức 4, Ưu tiên: 1)
+   ⚠️  T? d?ng d?ng b? t? log: Vượt quyền - User cấp 2 không được truy cập tài sản cấp 4
+
+⏰ 09/11 10:06 | 👤 Phạm Thị D
+   📁 Thông tin dân cư (Mức 4, Ưu tiên: 1)
+   ⚠️  T? d?ng d?ng b? t? log: Vượt quyền - User cấp 1 không được truy cập tài sản cấp 4
+
+⏰ 09/11 05:06 | 👤 Lê Văn C
+   📁 Báo cáo an ninh trật tự (Mức 4, Ưu tiên: 1)
+   ⚠️  T? d?ng d?ng b? t? log: Vượt quyền - User cấp 3 không được truy cập tài sản cấp 4
+
+⏰ 09/11 03:06 | 👤 Trần Thị B
+   📁 Thông tin dân cư (Mức 4, Ưu tiên: 1)
+   ⚠️  T? d?ng d?ng b? t? log: Vượt quyền - User cấp 2 không được truy cập tài sản cấp 4
+
+4. ĐÁNH GIÁ THEO TCVN 14423:2025
+--------------------------------------------------
+📊 Tỷ lệ truy cập thất bại: 81.8% ❌ KHÔNG ĐẠT
+🚨 Cảnh báo vượt quyền/24h: 13 ✅ ĐẠT
+👤 User vi phạm/24h: 3 ❌ KHÔNG ĐẠT
+
+🎯 KẾT LUẬN: ❌ CHƯA ĐẠT TIÊU CHUẨN
+
+5. KHUYẾN NGHỊ CẢI THIỆN
+--------------------------------------------------
+🔸 Rà soát lại hệ thống phân quyền - tỷ lệ thất bại quá cao
+🔸 Đào tạo lại user về quy định truy cập dữ liệu
+🔸 Ưu tiên xử lý các cảnh báo mức ưu tiên cao trước
+🔸 Xem xét đào tạo nâng cao nhận thức bảo mật
+
+================================================================================
+Báo cáo được tạo tự động bởi Hệ thống Kiểm thử TCVN 14423:2025
+================================================================================
