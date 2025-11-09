@@ -24,14 +24,3 @@ Dự án này giải quyết thách thức trong việc kiểm thử bảo mật
 | **⚡ Hiệu quả Chi phí** | Cho phép "thử và sai" nhanh chóng, tiết kiệm thời gian và nguồn lực so với việc thử nghiệm trên môi trường thực. |
 | **📈 Đánh giá Toàn diện** | Tạo ra được các kịch bản kiểm thử biên, cực đoan mà khó có thể thực hiện được trong môi trường thực. |
 
-## 🏗️ Kiến trúc & Công nghệ
-
-*(Bạn có thể thêm vào phần này sau)*
-- **Cơ sở dữ liệu:** [Ví dụ: PostgreSQL, MySQL]
-- **Backend:** [Ví dụ: Python/FastAPI, Java/Spring Boot]
-- **Công cụ Tạo dữ liệu:** [Ví dụ: Faker]
-- **Ảo hóa:** [Ví dụ: Docker, Vagrant]
-
-## 📁 Cấu trúc Dự án
-
-*(Bạn có thể thêm vào phần này sau)*
